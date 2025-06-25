@@ -51,6 +51,10 @@ body {
     align-items: center
 }
 
+.course-name{
+   cursor: pointer;
+}
+
 .categories {
     display: flex;
     padding: 10px;
@@ -69,6 +73,7 @@ body {
     position: absolute;
     background-color: white;
     border: solid black 1px;
+    border-radius: 30px;
     width: 100%;
     top: 150%;
     padding: 20px;
